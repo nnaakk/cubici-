@@ -1,13 +1,12 @@
 const express = require ('express')
 
-
 const config = require('./config')
-
-const app = express()
-
 const setupViewEngine = require('./config/viewEngine')
 
+const app = express()
 setupViewEngine(app)
+
+app.use(express.static('src/public'))
 
 app.get('/', (req,res) => {
     res.send('Home Page')
