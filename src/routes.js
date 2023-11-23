@@ -13,4 +13,5 @@ router.get('/about' , homeController.getAbout)
 
 router.get('/create' , cubeController.getCreateCube)
 
+router.post('/create' , cubeController.postCreateCube)
 module.exports = router
