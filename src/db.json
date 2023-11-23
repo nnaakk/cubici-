@@ -1,12 +1,53 @@
 {
   "cubes": [
     {
-      "name": {
-        "name": "t2",
-        "description": "test2",
-        "imageUrl": "rr",
-        "difficultyLevel": "1"
-      }
+      "id": 1,
+      "name": "kube1",
+      "description": "test2",
+      "imageUrl": "https://thingsidesire.com/wp-content/uploads/2018/06/Eco-Dark-Rubik%E2%80%99s-Cube2.jpg",
+      "difficultyLevel": "2"
+    },
+    {
+      "id": 2,
+      "name": "cube2",
+      "description": "test2",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61izOzq%2BBAL._SY355_.jpg",
+      "difficultyLevel": "3"
+    },
+    {
+      "id": 3,
+      "name": "cube2",
+      "description": "reerer",
+      "imageUrl": "https://target.scene7.com/is/image/Target/GUEST_73622859-7bcf-4da8-b70a-9bafa7d080e2?wid=488&hei=488&fmt=pjpeg",
+      "difficultyLevel": "4"
+    },
+    {
+      "id": 4,
+      "name": "rere",
+      "description": "erer",
+      "imageUrl": "https://i.guim.co.uk/img/media/af8ee7ce17c44bfe5672bdd496ada5c0d2305780/0_261_3386_2031/master/3386.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=4673d6d3295863573a3322c9b0242668",
+      "difficultyLevel": "6"
+    },
+    {
+      "id": 5,
+      "name": "cube7",
+      "description": "ytytyt",
+      "imageUrl": "https://i.guim.co.uk/img/media/af8ee7ce17c44bfe5672bdd496ada5c0d2305780/0_261_3386_2031/master/3386.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=4673d6d3295863573a3322c9b0242668",
+      "difficultyLevel": "5"
+    },
+    {
+      "id": 6,
+      "name": "cube8",
+      "description": "vcdf",
+      "imageUrl": "https://res.cloudinary.com/teepublic/image/private/s--RGqBokpZ--/c_crop,x_10,y_10/c_fit,h_1109/c_crop,g_north_west,h_1260,w_1260,x_-98,y_-76/co_rgb:000000,e_colorize,u_Misc:One%20Pixel%20Gray/c_scale,g_north_west,h_1260,w_1260/fl_layer_apply,g_north_west,x_-98,y_-76/bo_157px_solid_white/e_overlay,fl_layer_apply,h_1260,l_Misc:Art%20Print%20Bumpmap,w_1260/e_shadow,x_6,y_6/c_limit,h_1254,w_1254/c_lpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_auto:good:420,w_630/v1610840141/production/designs/18568896_0.jpg",
+      "difficultyLevel": "2"
+    },
+    {
+      "name": "cube9",
+      "description": "dfdfd",
+      "imageUrl": "https://target.scene7.com/is/image/Target/GUEST_505a4575-ce19-4fea-9ba6-29bca2f4d2c0?wid=488&hei=488&fmt=pjpeg",
+      "difficultyLevel": "1",
+      "id": 7
     }
   ]
 }
