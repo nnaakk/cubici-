@@ -1,5 +1,5 @@
 const db = require('../db.json');
-const { search } = require('../routes');
+
 
 exports.getHome =  (req,res) => {
 
@@ -9,6 +9,13 @@ exports.getHome =  (req,res) => {
 
     if(search) {
         cubes = cubes.filter(x => x.name.toLowerCase().includes(search.toLowerCase()))
+    }
+
+    if(from){
+        cubes = cubes.filter(x => x.difficultyLevel >= from)
+    }
+    if(to){
+        cubes = cubes.filter(x => x.difficultyLevel <= from)
     }
     res.render('index', {cubes})
 }
