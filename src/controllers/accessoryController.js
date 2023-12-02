@@ -11,12 +11,18 @@ router.post('/create', async (req,res) => {
 const {name, description,imageUrl} = req.body
 
 let accessory = new Accessory({name, description,imageUrl})
+   try {
+      await accessory.save(accessory)
+   } catch (err) {
+      console.log(err.message);
+      return res.redirect('/404')
+   } 
 
-await accessory.save(accessory)
 
 res.redirect('/')
-
-
 })
+
+
+
 
 module.exports = router
